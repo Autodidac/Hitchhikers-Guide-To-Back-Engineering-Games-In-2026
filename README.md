@@ -15,7 +15,8 @@
 #### Kernel Driver Creation
 
 [Microsoft Website On WDK Driver Creation](https://learn.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/older-downloads/)
+- [Visual Studio 2022](https://www.techspot.com/downloads/7493-visual-studio-2022.html)
+
 - [WinSDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/)
 - [WDK](https://go.microsoft.com/fwlink/?linkid=2335869)
 - For Windows WDK - Windows 11 Driver Toolkit For Creating Kernel Level Cheats
