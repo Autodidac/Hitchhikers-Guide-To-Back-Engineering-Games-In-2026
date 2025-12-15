@@ -23,6 +23,7 @@
 - All 3 in a single ISO 18GB
 - [EWDK](https://learn.microsoft.com/en-us/legal/windows/hardware/enterprise-wdk-license-2022)
 
-- [TroubleChute Video](https://www.youtube.com/watch?v=HFobGp7VZeA)
+
+[![Watch the video](https://img.youtube.com/vi/HFobGp7VZeA/maxresdefault.jpg)](https://www.youtube.com/watch?v=HFobGp7VZeA)
 
 
