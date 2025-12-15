@@ -10,6 +10,42 @@
 
 #### Back Engineering
 
+code
+'''cpp
+# verify-iso.ps1
+# Verifies SHA-256 hash of a downloaded ISO
+
+param (
+    [Parameter(Mandatory = $true)]
+    [string]$IsoPath
+)
+
+# Expected SHA-256 for Win11 25H2 English International x64
+$ExpectedHash = "BAAEB6C90DD51648154B64C40C9E0C14D93A427F611A1BB49C8077FA2FF73364"
+
+if (-not (Test-Path $IsoPath)) {
+    Write-Error "File not found: $IsoPath"
+    exit 2
+}
+
+Write-Host "Computing SHA-256 hash..."
+$Result = Get-FileHash -Algorithm SHA256 -Path $IsoPath
+
+Write-Host ""
+Write-Host "Expected : $ExpectedHash"
+Write-Host "Computed : $($Result.Hash)"
+Write-Host ""
+
+if ($Result.Hash -ieq $ExpectedHash) {
+    Write-Host "✔ Integrity check PASSED" -ForegroundColor Green
+    exit 0
+}
+else {
+    Write-Host "✘ Integrity check FAILED" -ForegroundColor Red
+    Write-Host "File is corrupted or has been tampered with."
+    exit 1
+}
+'''
 
 #### Kernel Driver Creation
 
