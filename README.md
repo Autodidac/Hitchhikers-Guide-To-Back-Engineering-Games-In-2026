@@ -23,8 +23,6 @@
 - All 3 in a single ISO 18GB
 - [EWDK](https://learn.microsoft.com/en-us/legal/windows/hardware/enterprise-wdk-license-2022)
 
-- [Uplo[InternetShortcut]
-URL=https://www.youtube.com/watch?v=HFobGp7VZeA
-ading (3) Set up- Windows Driver Kit (WDK) for Visual Studio 2019 - YouTube.url…]()
+- [TroubleChute Video](URL=https://www.youtube.com/watch?v=HFobGp7VZeA)
 
 
