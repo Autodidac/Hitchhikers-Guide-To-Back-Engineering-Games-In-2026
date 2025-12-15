@@ -11,7 +11,7 @@
 #### Back Engineering
 
 code
-'''cpp
+```cpp
 # verify-iso.ps1
 # Verifies SHA-256 hash of a downloaded ISO
 
@@ -45,7 +45,7 @@ else {
     Write-Host "File is corrupted or has been tampered with."
     exit 1
 }
-'''
+```
 
 #### Kernel Driver Creation
 
